@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>活动列表</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/public_active.css">
+<link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+<!-- 头部logo -->
+<div id="headerNav" class="bdbottom">
+	<div id="header" class="w_all m_auto" style="background-color:#fff;">
+		<ul class="fr header_ul mt50">
+			<li class="header_ul_1">发布新活动</li>
+			<li class="header_ul_2">本周收入<br/>¥<i>1000</i></li>
+			<li class="header_ul_3">报名待审<br/><i>100人</i></li>
+			<li class="header_ul_4">用户提问<br/><i>10人</i></li>
+		</ul>
+		<div class="header_div">
+			<img src="images/shoplogo.jpg" alt="">
+			<div class="header_div_div">
+				<h2>啦啦啦啦啦啦啦啦啦啦啦啦</h2>
+				<p>地址：广州市天河区伍仙桥时代花生1期A9栋102铺</p>
+				<p>电话：020--38060502</p>
+				<p>评分：<span class="starout"><span class="starin" style="width: 70%;"></span></span><i class="header_score"></i></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="contain" class="w_all m_auto">
+	<div class="contain_wrap mt20">
+		<!-- 左边-->
+
+		<div class="contain_left">
+			<a href="javascript:void(0)"><div class="contain_leftdiv1 bdbottom">订单详情</div></a>
+			<ul>
+				<a href="javascript:void(0)"><li class="liactive">活动列表</li></a>
+				<a href="javascript:void(0)"><li>报名审核</li></a>
+				<a href="javascript:void(0)"><li>活动验证</li></a>
+				<a href="javascript:void(0)"><li>用户疑问</li></a>
+				<a href="javascript:void(0)"><li>用户评价</li></a>
+			</ul>
+			<a href="javascript:void(0)"><div class="contain_leftdiv2 bdtop bdbottom">订单结算</div></a>
+			<ul class="contain_left_ul2">
+				<a href="javascript:void(0)"><li>全部订单</li></a>
+				<a href="javascript:void(0)"><li>活动结算</li></a>
+				<a href="javascript:void(0)"><li>我的收入</li></a>
+			</ul>
+			<!-- <a href="javascript:void(0)"><div class="contain_leftdiv3 bdtop bdbottom">活动验证</div></a> -->
+			<a href="javascript:void(0)"><div class="contain_leftdiv4 bdtop bdbottom">消息中心</div></a>
+			<a href="javascript:void(0)"><div class="contain_leftdiv5 bdbottom">我的资料</div></a>
+		</div>
+
+		<!-- 左边-->
+		<div class="contain_right">
+			<div class="publishNewActive"><a href="javascript:void(0);" class="publishNewActive_a">发布新活动</a></div>
+			<div class="border_by"></div>
+			<div class="p20 contain_search">
+				<input type="button" value="搜索列表">
+				<input type="text" class="border" placeholder="请输入关键字搜索">
+				<span></span>
+			</div>
+			
+			<div class="contain_right_list bdtop">
+				<ul>
+					<li class="bdbottom contain_right_listli">
+						<div class="contain_right_list_div1"><img src="images/shoplogo.jpg" alt=""></div>
+						<div class="contain_right_list_div2">
+							<p class="contain_right_list_div2p1">全优加萌宝爬行赛【报名进行时】</p>
+							<p class="contain_right_list_div2p2">
+								<span>活动时间：2016-08-22 16:00~18:00</span>
+								<span class="publish_span">12人报名 | 20人 名额</span>
+							</p>
+							<p class="contain_right_list_div2p3">状态： <i>审核通过</i></p>
+						</div>
+						<div class="contain_right_list_div3">
+							<a class="div3pover" href="#">管理活动</a>
+							<a href="#">报名管理</a>
+							<a href="#">活动签到</a>
+							<a class="div3pover" href="#">编辑活动</p></a>
+						</div>
+					</li>
+
+				</ul>
+				<ul class="pagechoose mt30 pb70">
+					<li class="prepage">上一页</li>
+					<li>1</li>
+					<li class="thispage">2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li class="nextpage">上一页</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="http://www.7wanl.com/static/7wanl_v1.1/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+$(function (){
+	$(".header_score").html(($(".starin").width()*5/84).toFixed(1))
+})
+</script>
+</html>

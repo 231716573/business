@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单详情</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/public_active.css">
+<link rel="stylesheet" href="css/settlement.css">
+</head>
+<body>
+<!-- 头部logo -->
+<div id="headerNav" class="bdbottom">
+	<div id="header" class="w_all m_auto" style="background-color:#fff;">
+		<ul class="fr header_ul mt50">
+			<li class="header_ul_1">发布新活动</li>
+			<li class="header_ul_2">本周收入<br/>¥<i>1000</i></li>
+			<li class="header_ul_3">报名待审<br/><i>100人</i></li>
+			<li class="header_ul_4">用户提问<br/><i>10人</i></li>
+		</ul>
+		<div class="header_div">
+			<img src="images/shoplogo.jpg" alt="">
+			<div class="header_div_div">
+				<h2>啦啦啦啦啦啦啦啦啦啦啦啦</h2>
+				<p>地址：广州市天河区伍仙桥时代花生1期A9栋102铺</p>
+				<p>电话：020--38060502</p>
+				<p>评分：<span class="starout"><span class="starin" style="width: 70%;"></span></span><i class="header_score"></i></p>
+				<p class="header_div_divp"><em></em>(02038)</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="contain" class="w_all m_auto">
+	<div class="contain_wrap mt20">
+		<!-- 左边-->
+
+		<div class="contain_left">
+			<a href="javascript:void(0)"><div class="contain_leftdiv1 bdbottom">订单详情</div></a>
+			<ul>
+				<a href="javascript:void(0)"><li class="liactive">活动列表</li></a>
+				<a href="javascript:void(0)"><li>报名审核</li></a>
+				<a href="javascript:void(0)"><li>活动验证</li></a>
+				<a href="javascript:void(0)"><li>用户疑问</li></a>
+				<a href="javascript:void(0)"><li>用户评价</li></a>
+			</ul>
+			<a href="javascript:void(0)"><div class="contain_leftdiv2 bdtop bdbottom">订单结算</div></a>
+			<ul class="contain_left_ul2">
+				<a href="javascript:void(0)"><li>全部订单</li></a>
+				<a href="javascript:void(0)"><li>活动结算</li></a>
+				<a href="javascript:void(0)"><li>我的收入</li></a>
+			</ul>
+			<!-- <a href="javascript:void(0)"><div class="contain_leftdiv3 bdtop bdbottom">活动验证</div></a> -->
+			<a href="javascript:void(0)"><div class="contain_leftdiv4 bdtop bdbottom">消息中心</div></a>
+			<a href="javascript:void(0)"><div class="contain_leftdiv5 bdbottom">我的资料</div></a>
+		</div>
+
+		<!-- 左边-->
+		<div class="contain_right pb50">
+			<div class="contain_right_publish"><a href="javascript:void(0)">返回</a>申请结算</div>
+			<div class="border_by"></div>
+			
+			<!-- 订单详情 -->
+			<div class="right_active_title" style="margin-top:30px;">
+				<p>订单详情</p>
+			</div>
+			<ul class="right_active_person_ul">
+				<li>
+					<p>订单状态：<span style="color:red;">啊啊啊啊啊啊啊</span></p>
+				</li>
+				<li>
+					<p>订单号：<span>1232312312345443545235</span></p>
+				</li>
+				<li>
+					<p>下单时间：<span>4008-823-823</span></p>
+				</li>
+			</ul>
+
+			<!-- 用户基本信息 -->
+			<div class="right_active_title">
+				<p>用户基本信息</p>
+			</div>
+			<ul class="right_active_basic_ul">
+				<li>
+					<p>合计金额</p>
+					<p style="color:red;">¥ 1213456789.00</p>
+				</li>
+				<li>
+					<p>佣金比例</p>
+					<p>100%</p>
+				</li>
+				<li>
+					<p>佣金</p>
+					<p>用户名称：</p>
+				</li>
+				<li>
+					<p>是否提供发票</p>
+					<p>
+						<p><input type="radio" name="fapiao" class="provide" checked /> 提供发票<input type="radio" name="fapiao" class="ml40 noprovide"> 不提供发票</p>
+						<p class="provide_invoice">
+							<span>提供发票的商家，请按照以下发票信息，邮寄发票到寄送地址，我们会在收到发票后的三个工作日内完成活动结算，如有疑问，请联系XXXX。</span><br /><br />
+							<span>发票完整抬头：广州杰赛互教通信息技术有限公司</span><br />
+							<span>发票项目：服务费/技术服务费</span><br />
+							<span>邮寄地址：广州市海珠区新港中路XXX号杰赛科技大厦广州杰赛互教通信息技术有限公司</span><br />
+							<span>联系人：XXXXX</span><br />
+							<span>联系电话：13800138000</span>
+						</p>
+					</p>
+				</li>
+				<!-- 不提供发票 -->
+				<div id="noprovide" style="display:none;">
+					<li>
+						<p>发票说明</p>
+						<p>活动发票如果无法提供，我们将扣除 活动合计金额 x10%的发票费用。</p>
+					</li>
+					<li>
+						<p>发票税费率</p>
+						<p>100%</p>
+					</li>
+					<li>
+						<p>发票抵扣</p>
+						<p>¥ 1213456789.00</p>
+					</li>
+				</div>
+
+				<li>
+					<p>结算金额</p>
+					<p style="color:red;">¥ 1213456789.00</p>
+				</li>
+				<li class="right_active_button mt20">
+					<input type="button" value="申请结算" /><input type="button" class="ml20" value="取消" />
+				</li>
+			</ul>
+
+			<!-- 列表 -->
+			<div class="right_active_list">
+				<div>
+					<p class="right_active_list_p1">订单号</p>
+					<p class="right_active_list_p2">用户昵称</p>
+					<p class="right_active_list_p3">下单时间</p>
+					<p class="right_active_list_p4">人数</p>
+					<p class="right_active_list_p5">单价</p>
+					<p class="right_active_list_p6">应付款</p>
+					<p class="right_active_list_p7">优惠</p>
+					<p class="right_active_list_p8">优惠提供方</p>
+					<p class="right_active_list_p9">状态</p>
+					<p class="right_active_list_p10">收入</p>
+					<p class="right_active_list_p11">操作</p>
+				</div>
+				<ul class="settlement_list mb50">
+					<li>
+						<p class="right_active_list_p1">12335465434245654</p>
+						<p class="right_active_list_p2">用户昵称用户</p>
+						<p class="right_active_list_p3">2016-08-99 99:99</p>
+						<p class="right_active_list_p4">99大99小</p>
+						<p class="right_active_list_p5 settlement_list_p5">大人¥11.11<br />小孩¥1111.11</p>
+						<p class="right_active_list_p6">¥111111.11</p>
+						<p class="right_active_list_p7">¥111.11</p>
+						<p class="right_active_list_p8">优惠提供供</p>
+						<p class="right_active_list_p9">未付款款</p>
+						<p class="right_active_list_p10">¥123456.11</p>
+						<p class="right_active_list_p11"><a href="###">查看详情</a></p>
+					</li>
+					<li>
+						<p class="right_active_list_p1">12335465434245654</p>
+						<p class="right_active_list_p2">用户昵称用户</p>
+						<p class="right_active_list_p3">2016-08-99 99:99</p>
+						<p class="right_active_list_p4">99大99小</p>
+						<p class="right_active_list_p5 settlement_list_p5">大人¥11.11<br />小孩¥1111.11</p>
+						<p class="right_active_list_p6">¥111111.11</p>
+						<p class="right_active_list_p7">¥111.11</p>
+						<p class="right_active_list_p8">优惠提供供</p>
+						<p class="right_active_list_p9">未付款款</p>
+						<p class="right_active_list_p10">¥123456.11</p>
+						<p class="right_active_list_p11"><a href="###">查看详情</a></p>
+					</li>
+					<li>
+						<p class="right_active_list_p1">12335465434245654</p>
+						<p class="right_active_list_p2">用户昵称用户</p>
+						<p class="right_active_list_p3">2016-08-99 99:99</p>
+						<p class="right_active_list_p4">99大99小</p>
+						<p class="right_active_list_p5 settlement_list_p5">大人¥11.11<br />小孩¥1111.11</p>
+						<p class="right_active_list_p6">¥111111.11</p>
+						<p class="right_active_list_p7">¥111.11</p>
+						<p class="right_active_list_p8">优惠提供供</p>
+						<p class="right_active_list_p9">未付款款</p>
+						<p class="right_active_list_p10">¥123456.11</p>
+						<p class="right_active_list_p11"><a href="###">查看详情</a></p>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="http://www.7wanl.com/static/7wanl_v1.1/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+$(function (){
+	$(".provide").bind('click', function(event) {
+		$(".provide_invoice").show();
+		$("#noprovide").hide();
+	});
+	$(".noprovide").bind('click', function(event) {
+		$(".provide_invoice").hide();
+		$("#noprovide").show();
+	});
+	$(".header_score").html(($(".starin").width()*5/84).toFixed(1))
+})
+</script>
+</html>

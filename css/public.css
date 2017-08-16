@@ -1,0 +1,61 @@
+/*CSS reset*/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6, pre,form,fieldset,input,textarea,p,th,td{margin: 0;padding: 0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+ol,ul{list-style: none;}
+th{text-align: center;}
+a{text-decoration: none; cursor: pointer;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+address,caption,cite,code,dfn,em,strong,th,var,i {font-weight: normal;font-style: normal;}
+q:before,q:after {content:'';}
+input { font-family: "微软雅黑";outline: none; }
+input[type=button] { cursor: pointer; }
+body {
+	position: relative;
+	background: #ccc;
+	color: #333;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "微软雅黑","Segoe UI","Lucida Grande","Microsoft YaHei",FreeSans,Arimo,"Droid Sans","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+}
+/*宽度公用*/
+.w_100 { width: 100%; }
+.w_all { width: 1180px; }
+.w264  { width: 264px; }
+
+
+/*margin公用*/
+.m_auto { margin:0px auto; }
+.ml20   { margin-left: 20px; }
+.ml40   { margin-left: 40px; }
+.mb20   { margin-bottom:20px; }
+.mb50   { margin-bottom:50px; }
+.mt20   { margin-top:20px; }
+.mt30   { margin-top:30px; }
+.mt50   { margin-top:50px; }
+.mt70   { margin-top:70px; }
+.mr20   { margin-right: 20px; }
+
+/*padding公用*/
+.p20 { padding:20px; }
+.pb50 { padding-bottom: 50px; }
+.pb70 { padding-bottom: 70px; }
+
+/*boder*/
+.border { border: 1px solid #e4e4e4; }
+.bdtop { border-top: 1px solid #e4e4e4; }
+.bdright { border-right: 1px solid #e4e4e4; }
+.bdbottom { border-bottom: 1px solid #e4e4e4; }
+.bdleft { border-left: 1px solid #e4e4e4; }
+
+/*浮动*/
+.fl{float: left;}
+.fr{float: right;}
+
+.clearboth { clear: both; }
+
+/*自定义横线*/
+.border_by { width:100%;height:2px; border-top: 1px solid #e4e4e4; }
+
+
+input[type=text]:focus {outline:none;border:1px solid rgb(0,250,250); -webkit-box-shadow:0px 0px 6px rgba(0,250,250,0.75);box-shadow: 0px 0px 6px rgba(0,250,250,0.75);}

@@ -1,0 +1,24 @@
+.contain_right_active { margin: 50px 25px; text-align: center; }
+.contain_right_active h2 { font-size: 16px; color: #000;margin-bottom: 20px; }
+.contain_right_active .contain_right_active_ul1 { width:100%; height:45px; line-height: 45px; color: #999; text-align: center; border:1px solid #d6d6d6; font-size: 13px; }
+.contain_right_active .contain_right_active_ul1 li { float: left; width: 153px; }
+.contain_right_active .contain_right_active_ul1 li em { color: #333; }
+.contain_right_active .contain_right_active_div { margin:25px auto; }
+.contain_right_active .contain_right_active_div a { border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; display: inline-block; margin: 0px 10px; width:76px; height: 29px; line-height: 29px; text-align: center; border:1px solid #36c2bf; color: #36c2bf; }
+.right_active_title { margin: 0px 25px; }
+.right_active_title p { width:900px; padding-left: 20px; height: 45px; line-height: 45px; background-color: #f2f2f2; color: #666; }
+.right_active_title_ul,.right_active_contain_ul,.right_active_person_ul { margin: 0px 50px; }
+.right_active_contain_ul { margin-bottom: 50px; }
+.right_active_person_ul { height: 120px; }
+.right_active_title_ul li{ height: 45px; line-height: 45px;border-bottom: 1px solid #e9e9e9; width:100%; }
+.right_active_title_ul li p:first-child { float: left; width:120px; color: #999; }
+.right_active_title_ul li p { font-size: 13px; color: #333; overflow: hidden; text-overflow:ellipsis; white-space:nowrap; }
+.right_active_contain_ul li {height: 45px;  border-bottom: 1px solid #e9e9e9; width:100%; }
+.right_active_contain_ul li p { float: left; width: 130px; height: 45px; line-height: 45px; color: #666; }
+.right_active_contain_ul li p:first-child { font-size: 14px; color: #333;width: 80px; }
+.right_active_contain_ul li p.view_lastchild { width: 400px; }
+
+.right_active_person_ul li { float: left; width: 33%; height: 45px; line-height: 45px;}
+.right_active_person_ul li p { font-size: 13px; color: #999; overflow: hidden; text-overflow:ellipsis; white-space:nowrap; }
+.right_active_person_ul li p span { color: #333; }
+

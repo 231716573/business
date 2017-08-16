@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>发布新活动</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/public_active.css">
+<link rel="stylesheet" href="css/activity_post.css">
+<link rel="stylesheet" href="css/datetimepicker.css" />
+</head>
+<body>
+<!-- 头部logo -->
+<div id="headerNav" class="bdbottom">
+	<div id="header" class="w_all m_auto" style="background-color:#fff;">
+		<ul class="fr header_ul mt50">
+			<li class="header_ul_1">发布新活动</li>
+			<li class="header_ul_2">本周收入<br/>¥<i>1000</i></li>
+			<li class="header_ul_3">报名待审<br/><i>100人</i></li>
+			<li class="header_ul_4">用户提问<br/><i>10人</i></li>
+		</ul>
+		<div class="header_div">
+			<img src="images/shoplogo.jpg" alt="">
+			<div class="header_div_div">
+				<h2>啦啦啦啦啦啦啦啦啦啦啦啦</h2>
+				<p>地址：广州市天河区伍仙桥时代花生1期A9栋102铺</p>
+				<p>电话：020--38060502</p>
+				<p>评分：<span class="starout"><span class="starin" style="width: 70%;"></span></span><i class="header_score"></i></p>
+				<p class="header_div_divp"><em></em>(02038)</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="contain" class="w_all m_auto">
+	<div class="contain_wrap mt20">
+		<!-- 左边-->
+
+		<div class="contain_left">
+			<a href="javascript:void(0)"><div class="contain_leftdiv1 bdbottom">活动管理</div></a>
+			<ul>
+				<a href="javascript:void(0)"><li class="liactive">活动列表</li></a>
+				<a href="javascript:void(0)"><li>报名审核</li></a>
+				<a href="javascript:void(0)"><li>活动验证</li></a>
+				<a href="javascript:void(0)"><li>用户疑问</li></a>
+				<a href="javascript:void(0)"><li>用户评价</li></a>
+			</ul>
+			<a href="javascript:void(0)"><div class="contain_leftdiv2 bdtop bdbottom">订单结算</div></a>
+			<ul class="contain_left_ul2">
+				<a href="javascript:void(0)"><li>全部订单</li></a>
+				<a href="javascript:void(0)"><li>活动结算</li></a>
+				<a href="javascript:void(0)"><li>我的收入</li></a>
+			</ul>
+			<!-- <a href="javascript:void(0)"><div class="contain_leftdiv3 bdtop bdbottom">活动验证</div></a> -->
+			<a href="javascript:void(0)"><div class="contain_leftdiv4 bdtop bdbottom">消息中心<span>15</span></div></a>
+			<a href="javascript:void(0)"><div class="contain_leftdiv5 bdbottom">我的资料</div></a>
+		</div>
+
+		<!-- 右边-->
+		<div class="contain_right pb50">
+			<div class="contain_right_publish">发布新活动</div>
+			<div class="border_by"></div>
+			<div class="publish_contain">
+				<ul class="cw_main">
+					<li>
+						<div class="cw_main_left fl"><i>*</i>活动名称</div>
+						<div class="cw_main_right mb20">
+							<input type="text" placeholder="给活动起个高大上的名称更容易吸引用户报名哦" class="activeTitle">
+						</div>
+					</li>
+					<li style="height:110px;">
+						<div class="cw_main_left fl"><i>*</i>活动海报</div>
+						<div class="cw_main_right upload mb20" style="*margin-top:8px;">
+							<div class="upload_div mb20">
+								<img src="" alt="">
+							</div>
+							<input type="button" value="上传图片" class="uploadlogo"><br />
+							<span style="font-size:12px;color:#000;">可上传组织logo、门店照片等，图片格式jgp，图片尺寸建议为：800*600，图片小于10M</span>
+						</div>
+					</li>
+					<li>
+						<div class="cw_main_left fl"><i>&nbsp;</i>活动类型</div>
+						<div class="cw_main_right mb20">
+							<div class="mb20 cw_main_type">
+								<select name="" id="" style="*position:absolute;*top:2px;*left:0px;">
+									<option value="0">请选择活动类型</option>
+									<option value="0">黑龙江省</option>
+									<option value="0">河南省</option>
+									<option value="0">北京市</option>
+								</select>
+							</div>
+						</div>
+					</li>
+					<li style="*clear:both; *margin-top:55px;">
+						<div class="cw_main_left fl" id="chekc"><i>&nbsp;</i>活动时间</div>
+						<div class="cw_main_right mb20">
+							<div class="datepicker" nowrap="TRUE" border="0" style="">
+								<input type="text" name="tbExamBeginDate" id="tbExamBeginDate" class="datepicker_begin" placeholder="请选择活动开始时间" /> ——
+								<input type="text" name="tbExamEndDate" id="tbExamEndDate" class="datepicker_end" placeholder="请选择活动结束时间" />
+                            </div>
+						</div>
+					</li>
+					<li>
+						<div class="cw_main_left fl"><i>&nbsp;</i>报名截止时间</div>
+						<div class="cw_main_right mb20">
+							<div class="datepicker" nowrap="TRUE" border="0" style="">
+								<input type="text" name="tbExamBeginDatesign" id="tbExamBeginDatesign" class="datepicker_signbegin" placeholder="活动报名-开始时间" /> ——
+								<input type="text" name="tbExamEndDatesign" id="tbExamEndDatesign" class="datepicker_signend" placeholder="活动报名-截止时间" />
+                            </div>
+						</div>
+					</li>
+					<li>
+						<div class="cw_main_left fl"><i>*</i>活动地点</div>
+						<div class="cw_main_right mb20">
+							<div class="mb20">
+								<select name="" id="">
+									<option value="0">广东省</option>
+									<option value="0">黑龙江黑龙江黑龙江省</option>
+									<option value="0">河南省</option>
+									<option value="0">北京市</option>
+								</select>
+								<select name="" id="" class="ml20">
+									<option value="0">广东省</option>
+									<option value="0">黑龙江黑龙江省龙江黑龙江省龙江黑龙江省龙江黑龙江省</option>
+									<option value="0">河南省</option>
+									<option value="0">北京市</option>
+								</select>
+							</div>
+							<div class="mb20">
+								<input type="text" placeholder="活动详细地址" class="act_address"><input type="button" value="定位" class="act_addressButton">
+								<span class="uploadlogo_span ml20">如果地址定位不精准，请规范输入地址！</span>
+							</div>
+							<div style="width:100%;height:400px;border:1px solid red;"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="border_by"></div>
+			<div class="publish_contain">
+				<ul class="cw_main">
+					<li>
+						<div class="cw_main_left fl"><i>*</i>活动名额</div>
+						<div class="cw_main_right mb20 cw_main_type" >
+							<input type="text" placeholder="活动名额" class="actNumber">
+							<select name="" id="">
+								<option value="0">请选择活动类型</option>
+								<option value="0">黑龙江省</option>
+								<option value="0">河南省</option>
+								<option value="0">北京市</option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<div class="cw_main_left fl"><i>*</i>适合年龄</div>
+						<div class="cw_main_right mb20">
+							<div class="mb20 cw_main_type">
+								<select name="" id="">
+									<option value="0">请选择活动类型</option>
+									<option value="0">黑龙江省</option>
+									<option value="0">河南省</option>
+									<option value="0">北京市</option>
+								</select>
+								<input type="text"  class="actAge"/>
+								<span  class="actAgespan">可自定义适合年龄,格式为：0~3岁</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="cw_main_left fl" id="chekc"><i>*</i>报名填写</div>
+						<div class="cw_main_right mb20 cw_main_write">
+							<p><input type="radio" name="checkthis" checked class="uploadlogo_show"> 小孩资料 <span>报名活动需要提供小孩名字生日</span><input type="radio" name="checkthis" class="ml40 uploadlogo_hide"> 身份证 <span>报名活动需要提供大人和小孩的身份证，需要购买保险的活动可选择</span></p>
+						</div>
+					</li>
+					<li>
+						<div class="cw_main_left fl"><i>*</i>活动费用</div>
+						<div class="cw_main_right mb20 cw_main_write">
+							<p id="cw_main_tc"><input type="radio" class="tcchoose_free" name="checkthis" checked> 免费活动<input type="radio" class="ml40 tcchoose_number" name="checkthis"> 按人数收费<input type="radio" class="ml40 tcchoose_tc" name="checkthis"> 套餐收费</p>
+							<div id="cw_main_tclist">
+								<!-- 按人数收费 -->
+								<div class="tclist_first mt20" style="display:none;">
+									<ul class="tclist_div">
+										<li class="tclist_divfirst">
+											<p>类别</p>
+											<p>金额</p>
+											<p>人数限制</p>
+										</li>
+										<li class="tclist_divsecond">
+											<p>大人</p>
+											<p><input type="text"></p>
+											<p>
+												<select name="" id="" class="tclist_divsecondselect">  
+													<option value="0">审核</option>  
+										            <option value="1">通过</option>
+										            <option value="2">不通过</option>
+										        </select>
+						        			</p>
+										</li>
+										<li class="tclist_divthird">
+											<p>小孩</p>
+											<p><input type="text"></p>
+											<p>
+												<select name="" id="" class="tclist_divsecondselect">  
+													<option value="0">审核</option>  
+										            <option value="1">通过</option>  
+										            <option value="2">不通过</option>
+										        </select>
+						        			</p>
+										</li>
+										<li class="tclist_divthird">
+											<p>小孩</p>
+											<p><input type="text"></p>
+											<p>
+												<select name="" id="" class="tclist_divsecondselect">  
+													<option value="0">审核</option>  
+										            <option value="1">通过</option>  
+										            <option value="2">不通过</option>
+										        </select>
+						        			</p>
+										</li>
+									</ul>
+								</div>
+								<!-- 按套餐收费 -->
+								<div class="tclist_last"  style="display:none;">
+									<ul class="tclistlast_ul">
+										<li class="tclist_divfirst">
+											<p>套餐名称</p>
+											<p>大人数量</p>
+											<p>小人数量</p>
+											<p>金额</p>
+											<p> </p>
+										</li>
+										<li>
+											<p>一大二小</p>
+											<p>1</p>
+											<p>1</p>
+											<p><input type="text" placeholder="请输入金额" /></p>
+											<p><img src="images/tclist_delect.png" alt=""></p>
+										</li>
+										<li>
+											<p>二大一小</p>
+											<p>12</p>
+											<p>21</p>
+											<p><input type="text" placeholder="请输入金额" /></p>
+											<p><img src="images/tclist_delect.png" alt=""></p>
+										</li>
+										<li>
+											<p>二大一小</p>
+											<p>12</p>
+											<p>21</p>
+											<p><input type="text" placeholder="请输入金额" /></p>
+											<p><img src="images/tclist_delect.png" alt=""></p>
+										</li>
+										<li>
+											<p><input type="text" placeholder="请输入套餐名称"/></p>
+											<p>
+												<select name="" id="" class="tclist_select">  
+													<option value="0">审核</option>  
+										            <option value="1">通过</option>
+										            <option value="2">不通过</option>
+										        </select>
+										    </p>
+										    <p>
+												<select name="" id="" class="tclist_select">  
+													<option value="0">审核</option>  
+										            <option value="1">通过</option>
+										            <option value="2">不通过</option>
+										        </select>
+										    </p>
+											<p><input type="text" placeholder="请输入金额" /></p>
+											<p><img src="images/tclist_delect.png" alt=""></p>
+										</li>
+									</ul>
+									<a class="addtclist">+ 添加套餐</a>
+								</div>
+							</div>
+
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="border_by"></div>
+			<div class="publish_contain">
+				<ul class="cw_main">
+					<li>
+						<div class="cw_main_left fl"><i>*</i>活动联系人</div>
+						<div class="cw_main_right mb20">
+							<input type="text" placeholder="请输入本次活动联系人">
+						</div>
+					</li>
+					<li>
+						<div class="cw_main_left fl"><i>*</i>联系电话</div>
+						<div class="cw_main_right mb20">
+							<input type="text" placeholder="请输入本次活动联系人电话">
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="border_by"></div>
+			<div class="publish_contain">
+				<ul class="cw_main">
+					<li>
+						<div class="cw_main_left fl"><i>*</i>活动介绍</div>
+						<div class="cw_main_right mb20">
+							<div class="mb20 cw_main_type">
+								<select name="" id="">
+									<option value="0">选择活动介绍模板</option>
+									<option value="0">黑龙江省</option>
+									<option value="0">河南省</option>
+									<option value="0">北京市</option>
+								</select>
+							</div>
+							<div style="width:100%;height:400px;border:1px solid red;"></div>
+							<input type="button" class="sumbitapply mt50" value="发布">
+							<input type="button" class="sumbitapply1 mt50" value="预览">
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="http://www.7wanl.com/static/7wanl_v1.1/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://www.17sucai.com/preview/1/2014-04-09/%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4/jquery.datetimepicker.js"></script>
+<script src="js/publish.js"></script>
+<script type="text/javascript">
+$(function (){
+	$(".header_score").html(($(".starin").width()*5/84).toFixed(1))
+})
+</script>
+</html>

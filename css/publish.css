@@ -1,0 +1,74 @@
+/*右侧*/
+.contain_right_publish { color: #666; padding:11px 13px 10px; }
+
+/* 发布活动 */
+.publish_contain { margin:0px 40px; }
+.publish_contain .cw_main { margin:35px 0px 50px; }
+.publish_contain .cw_main_left { width: 145px;height:36px; line-height: 36px; clear: right;}
+.publish_contain .cw_main_left i { margin-right:10px; color: #ff1e1e; }
+.publish_contain .cw_main_right { margin-left: 145px; *margin-top: -20px;}
+.publish_contain .cw_main_right input { border-radius: 5px; -webkit-border-radius:5px; -moz-border-radius:5px; cursor: pointer; border:1px solid #e4e4e4; vertical-align:middle;
+									 -webkit-transition: box-shadow 0.20s ease-in-out;
+       								 -moz-transition:  box-shadow 0.20s ease-in-out;}
+.publish_contain .cw_main_right input[type=text]:focus {outline:none;border:1px solid rgb(0,250,250); -webkit-box-shadow:0px 0px 6px rgba(0,250,250,0.75);
+													 box-shadow: 0px 0px 6px rgba(0,250,250,0.75);}
+.publish_contain .cw_main_right input[type=text] { width:364px; height:36px; line-height: 36px; padding-left: 5px;}
+.publish_contain .upload { line-height: 36px; }
+.publish_contain .upload_div { float:left;width:133px;height:88px;background:#f0f0f0;margin-right:15px; overflow: hidden; }
+.publish_contain .upload_div img { width:100%; height: 100% }
+.publish_contain .uploadtext { color:#999; }
+.publish_contain .uploadlogo_showDiv_img { width:133px;height:88px;overflow: hidden; margin-top: 20px; background-color: #f0f0f0; }
+.publish_contain .uploadlogo_showDiv_img img { width:100%; }
+.publish_contain .uploadlogo { padding:5px 10px; background-color: #f1f1f1; -moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px; *height:36px; *line-height: 18px;}
+.publish_contain .cw_main_right input[type=radio] { border:none; vertical-align:text-bottom; margin-bottom:2px; *margin-bottom:-1px; }
+.publish_contain .cw_main_right .uploadlogo_span { font-size: 12px; color: #ff5252; }
+.publish_contain .cw_main_right select::-ms-expand { display: none; }
+.publish_contain .cw_main_right select {  border:1px solid #e4e4e4;height:38px;padding:7px 40px 8px 10px;background: url(../images/apply/selectbg.jpg) top right no-repeat; appearance:none;-moz-appearance:none;-webkit-appearance:none; }
+.publish_contain .cw_main_right .act_address { width: 315px !important; border-right: none;}
+.publish_contain .cw_main_right .act_addressButton { height: 38px; line-height: 37px; width: 66px; background: #36c2bf; color:#fff;border:1px solid #e4e4e4;border-left:none; }
+.publish_contain .cw_main_type select { color: #999; width: 166px; }
+.publish_contain .cw_main_type { position:relative; }
+.publish_contain .cw_main_right .actNumber { width: 158px !important; }
+.publish_contain .cw_main_right .actAge { width: 158px !important; }
+.publish_contain .cw_main_right .actAgespan { color: #36c2bf; font-size: 12px; }
+.cw_main_right .datepicker { display:inline;border-style:none;position:relative; }
+.cw_main_right .datepicker input[type=text] { font-size: 12px;width:135px; padding-left:30px;border:1px solid #e0e0e0;color:#414141; background: url(../images/datepicker.png) 5px center no-repeat; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight { border-color: skyblue !important; }
+.cw_main_write p { height:36px; line-height: 36px; color: #333; }
+.cw_main_write p span { font-size: 12px; color: #999; }
+/*人数收费*/
+.tclist_div { width: 400px; height: 165px; border:1px solid #bfbfbf; }
+.tclist_div .tclist_divfirst { width:100%; height: 42px; line-height: 42px; }
+.tclist_div .tclist_divfirst p {  padding:0px !important; background-color: #f4f4f4; height: 42px; line-height: 42px; color: #999; }
+.tclist_div li p { float: left; width:160px ; text-align: center; padding:12px 0px; border-bottom:1px solid #dedede; }
+.tclist_div li p:first-child { width:80px; }
+.tclist_div li:last-child p { border-bottom: none; }
+.tclist_div input {font-size: 12px; width: 120px !important; height: 35px !important; }
+.tclist_divsecondselect {font-size: 12px; width: 85px !important; }
+.tclist_select { font-size: 12px; width: 110px !important;}
+/*套餐收费*/
+.tclistlast_ul { width: 650px; height: 225px;margin-top: 20px; border:1px solid #bfbfbf; }
+.tclistlast_ul .tclist_divfirst { width:100%; height: 42px; line-height: 42px; }
+.tclistlast_ul .tclist_divfirst p {  padding:0px !important; background-color: #f4f4f4; height: 42px; line-height: 42px; color: #999; }
+.tclistlast_ul li p { float: left; width:130px ; text-align: center; padding:12px 0px; border-bottom:1px solid #dedede; }
+.tclistlast_ul input {font-size: 12px;width: 100px !important;height: 35px !important;}
+.tclistlast_ul img { vertical-align: middle; cursor: pointer; }
+.tclist_last .addtclist { color: #14a6a3; display: block; width: 650px; height: 37px; line-height: 37px; text-align: center; background-color: #e4fffe; border:1px dashed #56cdcb; }
+
+/* 商家简介 */
+.sumbitapply{ border:none; -moz-border-radius: 6px;-webkit-border-radius: 6px;border-radius: 6px; font-size:18px;background-color:#fd8936;color:#fff;width:272px;height:60px;line-height:60px;text-align:center; }
+.sumbitapply1 { border:none; -moz-border-radius: 6px;-webkit-border-radius: 6px;border-radius: 6px; font-size:18px;background-color:#36c2bf;color:#fff;width:272px;height:60px;line-height:60px;text-align:center; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+/*右侧*/
+.contain_right_list { margin:20px; }
+.contain_search { position: relative; }
+.contain_search span { cursor: pointer; position: absolute; display: block; left: 490px; top: 30px; *top:33px; background: url(../images/actsearch.jpg) center center no-repeat; width: 20px; height: 20px; background-color: red; }
+.contain_search input[type=text] { padding:5px 8px;*padding: 5px 8px 5px 0px; width:400px; border-radius: 5px; -webkit-border-radius:5px; -moz-border-radius:5px;}
+.contain_search input[type=button] { padding:8px 20px 8px 0px; *padding: 6px 0px; background-color: #fff; border:none; font-size: 16px; color: #000; } 
+
+.ui-select {  text-align: center;border:solid 1px #e4e4e4; width:156px; background: #fff url(../images/select.png) 135px center no-repeat ; position: relative; height: 36px; line-height: 36px; *line-height: 36px; zoom: 1; }  
+.ui-select select {  position: absolute;  left: 0px;  top: 0px;  width: 156px;  height: 3em; *height:36px; zoom: 1; *line-height:36px;  opacity: 0; filter: "alpha(opacity=0)";   /* IE 8 */ filter: alpha(opacity=0);  /* IE 4-7 */  }
+.ui-select1 { float: left; }
+.ui-select2 { margin-left: 200px; }
+.ui-select span { *display: inline; *zoom:1; }
+
+.examine_acttitle_bd { border-top:1px solid #36c2bf; }
+.examine_acttitle { width:100%; height:34px; line-height: 34px;  }
+.examine_acttitle div { overflow:hidden;text-overflow:ellipsis;white-space:nowrap; float: left; height:34px; text-align:center; line-height: 34px; color:#000; font-size: 12px;  }
+.examine_acttitle_bd div { background-color: #f2f2f2; color: #666; font-size: 14px; }
+.examine_acttitle .examine_acttitle1 { padding-left: 20px; width:240px; text-align: left; }
+.examine_acttitle_list { padding:10px 0px; border-bottom:1px solid #e7e7e7; background-color: #fff; }
+.examine_acttitle_list:hover { background-color: #f1f6f6; }
+.examine_acttitle .examine_acttitle2 { width:120px; }
+.examine_acttitle .examine_acttitle3 { width: 80px; }
+.examine_acttitle .examine_acttitle4 { width: 80px; }
+.examine_acttitle .examine_acttitle5 { width: 130px; }
+.examine_acttitle .examine_acttitle6 { width: 80px; }
+.examine_acttitle .examine_acttitle7 { width: 179px; }
+.examine_acttitle .examine_acttitle7 p { border-radius: 5px; -webkit-border-radius:5px; -moz-border-radius:5px; display: inline-block; *display: inline; *zoom:1; border:1px solid #36c2bf; color: #36c2bf;height: 21px; line-height: 21px; font-size: 12px; width: 58px; text-align: center; }
+.examine_acttitle .examine_acttitle7 select { border-radius: 5px; -webkit-border-radius:5px; -moz-border-radius:5px; display: inline-block; *display: inline; *zoom:1;border:1px solid #36c2bf; color: #36c2bf;height: 21px; line-height: 21px; font-size: 12px; width: 60px; text-align: center; }
+
+
+
+
+
+
+
+
+
+
